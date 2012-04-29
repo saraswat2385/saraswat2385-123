@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DB Console</title>
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="resources/js/dojo/resources/dojo.css" media="screen">
+        <link rel="stylesheet" href="resources/js/dijit/themes/claro/claro.css" media="screen">
+        <link rel="stylesheet" href="resources/js/dojox/grid/resources/claroGrid.css" media="screen">
+        <script>
+            var dojoConfig = {
+                async:true,
+                packages:[
+                    {name:"vdbc", location:"../vdbc"}
+                ]
+            };
+        </script>
+        <script src="resources/js/dojo/dojo.js"></script>
+        <script>
+            require(["dojo/domReady!", "vdbc/main"]);
+        </script>
+    </head>
+    <body class="dijitReset claro">
+        <div id="app"></div>
+    </body>
+</html>

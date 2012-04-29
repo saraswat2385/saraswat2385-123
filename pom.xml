@@ -19,6 +19,7 @@
         <module>vdbc-data</module>
         <module>webapp</module>
         <module>distrib</module>
+        <module>webui-dojo</module>
     </modules>
 
     <dependencyManagement>
